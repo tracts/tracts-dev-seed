@@ -35,7 +35,8 @@
     "clean": "rimraf -rf lib/**/* types/**/* coverage/**/* .nyc_output/**/*",
     "lint": "tslint -t stylish -p .",
     "compile": "tsc -p .",
-    "test": "nyc ava -v lib/**/*.spec.js"
+    "test": "nyc ava -v lib/**/*.spec.js",
+    "cover": "nyc report --reporter=text-lcov | coveralls"
   },
   "files": [
     "lib/**/*"
