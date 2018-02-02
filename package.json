@@ -30,6 +30,7 @@
   },
   "scripts": {
     "clean": "rimraf -rf lib/**/* types/**/*",
+    "lint": "tslint -t stylish -p .",
     "compile": "tsc -p ."
   },
   "files": [
