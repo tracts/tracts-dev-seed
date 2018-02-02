@@ -1,0 +1,15 @@
+# Dependencies via npm / yarn
+node_modules/**/*
+
+# Temporary files
+tmp/**/*
+
+# Backup- and logfiles
+**/*.log
+**/*.bak
+
+# IDE metadata
+.idea/**/*
+
+# OS metadata
+**/.DS_Store
