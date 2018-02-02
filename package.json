@@ -28,5 +28,9 @@
   },
   "scripts": {
     "compile": "tsc -p ."
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "typings": "types/**.d.ts"
 }
