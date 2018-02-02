@@ -23,6 +23,7 @@
     "npm": ">=2.15.11"
   },
   "devDependencies": {
+    "@types/node": "^4.2.23",
     "typescript": "^2.7.1"
   }
 }
