@@ -1,0 +1,21 @@
+{
+  "name": "@tracts/dev-seed",
+  "version": "0.0.1",
+  "description": "tracts | dev-seed | scaffolding for tracts modules",
+  "keywords": [
+    "tracts",
+    "trx",
+    "build",
+    "tool",
+    "typed",
+    "typescript",
+    "reactive",
+    "rx",
+    "dev",
+    "seed",
+    "scaffold"
+  ],
+  "repository": "tracts/tracts-dev-seed/",
+  "author": "Tracts Root <tracts@xs4all.nl>",
+  "license": "MIT"
+}
