@@ -31,10 +31,10 @@
     "typescript": "^2.7.1"
   },
   "scripts": {
-    "clean": "rimraf -rf lib/**/* types/**/*",
+    "clean": "rimraf -rf lib/**/* types/**/* coverage/**/* .nyc_output/**/*",
     "lint": "tslint -t stylish -p .",
     "compile": "tsc -p .",
-    "test": "ava -v lib/**/*.spec.js"
+    "test": "nyc ava -v lib/**/*.spec.js"
   },
   "files": [
     "lib/**/*"
