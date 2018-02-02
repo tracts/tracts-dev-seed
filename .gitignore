@@ -2,6 +2,10 @@
 lib/**/*
 types/**/*
 
+# Unit test / coverage artifacts
+coverage/**/*
+.nyc_output/**/*
+
 # Dependencies via npm / yarn
 node_modules/**/*
 
