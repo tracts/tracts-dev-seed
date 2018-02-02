@@ -17,5 +17,9 @@
   ],
   "repository": "tracts/tracts-dev-seed/",
   "author": "Tracts Root <tracts@xs4all.nl>",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.8.0",
+    "npm": ">=2.15.11"
+  }
 }
