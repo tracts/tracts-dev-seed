@@ -28,6 +28,7 @@
     "typescript": "^2.7.1"
   },
   "scripts": {
+    "clean": "rimraf -rf lib/**/* types/**/*",
     "compile": "tsc -p ."
   },
   "files": [
