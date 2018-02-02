@@ -1,3 +1,7 @@
+# Compilation artifacts
+lib/**/*
+types/**/*
+
 # Dependencies via npm / yarn
 node_modules/**/*
 
