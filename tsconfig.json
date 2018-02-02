@@ -1,0 +1,38 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "stripInternal": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noEmitOnError": true,
+    "pretty": true,
+    "sourceMap": true,
+    "declaration": true,
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "es2015",
+      "es2017"
+    ],
+    "rootDir": "src",
+    "outDir": "lib",
+    "declarationDir": "types"
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "lib/**/*",
+    "types/**/*",
+    "node_modules/**/*",
+    "tmp/**/*"
+  ],
+  "typeRoots": [
+    "node_modules/@types"
+  ]
+}
