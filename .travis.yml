@@ -1,0 +1,36 @@
+sudo: false
+
+os:
+  - linux
+  - osx
+
+git:
+  depth: 4
+
+language: node_js
+
+node_js:
+  - 9
+  - 8
+  - 6
+  - 4
+
+cache:
+  directories:
+    - node_modules
+
+env:
+  global:
+    - secure: U26f1iZnMre4FioPYJoloRTWhFcXZxMvrNgmRMC7HMi23E+skKB5otFdQQKEREbRVnt+Z9Fmc8v1khB7eaNrFfVb9kcsDDzhHkBNo0C4ooxPyZuAWlUIrISlzYAd/aKcwoMKwreo9Cy+Th0R6JtcHM/JXBzrTmdPfcowLd1Bu1JF9IZHMybxP+Fn6OEiWYDeI9we+eU5//ibrZ4DUMPXGZRGTGs5dKvyOkpkn3oD1CbErIBZPL7NdhgNu5t6YpICTlJQwi93MlJI0iHfHsXioJfMrz85Opny31UXSLCa8ou5XALXuGK2UBoiEjLO6fDrF4KZbHiw7pCH4+cd/6rsG+NbEw0EdOghBW+zDRIlKoqAOlEyycDB9FMksHBuTZySgVZ5Vlt1XWUy8YQv95+2OTCg9OiQIVnqsR/tqmpkZ6yjL5gZNtvbJwaoY8pFIh5mFfcaCmS21Od8U2qUPYplehHI1IuD3dUY1G4M7rWeQytr7wyVsYu73BoOrDWUFYsBj6pjT3ATaC6ZqG4zrK7bUGrtlDOSWjCPoeteZNAzHdAWQY67HrTSMRQufWR/iD159sIY5Q3rs5693IevAYntysa9p5Fbb9BBgTjOaRWqJE0j77g3cpweOuP9eakGqL4N94qrJYdjFOVUaBIBo6O+xyd0kC+Oljx5DGRM6R41a8Y=
+
+install:
+  - npm install --prefer-offline
+
+before_script:
+  - npm run clean
+
+script:
+  - npm run lint && npm run compile && npm run test
+
+after_success:
+  - npm run cover
