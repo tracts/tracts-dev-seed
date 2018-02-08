@@ -2,7 +2,7 @@
 
 ## scaffolding for tracts modules
 
-[![Travis][travis-img]][travis-url] [![AppVeyor][appveyor-img]][appveyor-url]
+[![Travis][travis-img]][travis-url] [![AppVeyor][appveyor-img]][appveyor-url]  [![Coverage][coveralls-img]][coveralls-url]
 
 
 [travis-url]: https://travis-ci.org/tracts/tracts-dev-seed?branch=master
@@ -10,3 +10,6 @@
 
 [appveyor-url]: https://ci.appveyor.com/project/tracts/tracts-dev-seed?branch=master
 [appveyor-img]: https://img.shields.io/appveyor/ci/tracts/tracts-dev-seed/master.svg?label=appveyor
+
+[coveralls-url]: https://coveralls.io/github/tracts/tracts-dev-seed?branch=master
+[coveralls-img]: https://img.shields.io/coveralls/github/tracts/tracts-dev-seed/master.svg?label=coveralls
