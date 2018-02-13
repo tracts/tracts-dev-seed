@@ -6,6 +6,9 @@ types/**/*
 coverage/**/*
 .nyc_output/**/*
 
+# Documentation artifacts
+doc/**/*
+
 # Dependencies via npm / yarn
 node_modules/**/*
 
