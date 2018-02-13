@@ -33,11 +33,12 @@
     "typescript": "^2.7.1"
   },
   "scripts": {
-    "clean": "rimraf -rf lib/**/* types/**/* coverage/**/* .nyc_output/**/*",
+    "clean": "rimraf -rf lib/**/* types/**/* coverage/**/* .nyc_output/**/* doc/**/*",
     "lint": "tslint -t stylish -p .",
     "compile": "tsc -p .",
     "test": "nyc ava -v lib/**/*.spec.js",
-    "cover": "nyc report --reporter=text-lcov | coveralls"
+    "cover": "nyc report --reporter=text-lcov | coveralls",
+    "docs": "typedoc"
   },
   "files": [
     "lib/**/*"
