@@ -23,7 +23,7 @@
     "npm": ">=2.15.11"
   },
   "devDependencies": {
-    "@types/node": "^4.2.23",
+    "@types/node": "^4.0.42",
     "ava": "^0.25.0",
     "coveralls": "^3.0.0",
     "nyc": "^11.4.1",
