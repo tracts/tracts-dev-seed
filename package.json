@@ -19,18 +19,18 @@
   "author": "Tracts Root <tracts@xs4all.nl>",
   "license": "MIT",
   "engines": {
-    "node": ">=4.8.0",
-    "npm": ">=2.15.11"
+    "node": ">=6.14.4",
+    "npm": ">=3.10.10"
   },
   "devDependencies": {
-    "@types/node": "^4.0.42",
-    "ava": "^0.25.0",
-    "coveralls": "^3.0.1",
-    "nyc": "^11.7.1",
+    "@types/node": "^6.14.1",
+    "ava": "1.0.0-rc.1",
+    "coveralls": "^3.0.2",
+    "nyc": "^13.1.0",
     "rimraf": "^2.6.2",
-    "tslint": "^5.9.1",
-    "typedoc": "^0.11.1",
-    "typescript": "^2.8.3"
+    "tslint": "^5.11.0",
+    "typedoc": "^0.13.0",
+    "typescript": "^3.1.6"
   },
   "scripts": {
     "clean": "rimraf -rf lib/**/* types/**/* coverage/**/* .nyc_output/**/* doc/**/*",
